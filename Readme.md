@@ -12,7 +12,13 @@ Affordable getaways for families to travel an still feel at home.
 
 ##  Nonfunctional requirements:
 1. Insuring customer safety by using background checks to prevent fraud
-2. 
+2. Customer Service avaiable 24 hours every day 
+3. Customer notifications for upcoming reservations
+4. low latency transactions 
+5. Complies with local tenant laws  
+## 
+  
+
 
 
 ![image](./Staybnb.jpg)
