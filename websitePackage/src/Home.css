@@ -1,0 +1,38 @@
+/*
+.light-hero {
+  background-position: center, bottom left;
+  background-size: cover, cover;
+  height: fit-content;
+  color: #fafafc;
+  padding: 15rem 3rem 6rem;
+}
+
+.heroInner {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+span {
+  max-width: 50%;
+}
+
+*/
+
+.home-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensure the hero section takes full width */
+.hero {
+  width: 100%;
+  position: relative;
+}
+
+.banner-image {
+  width: 20%;
+  height: auto;
+  max-height: 80vh; /* Adjust as needed */
+  object-fit: cover; /* Ensures image covers the space nicely */
+}

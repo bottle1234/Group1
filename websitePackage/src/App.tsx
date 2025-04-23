@@ -3,23 +3,12 @@ import Contact from "./pages/Contact.js";
 import Home from "./pages/Home.js";
 import Login from "./pages/Login.js";
 import "./App.css";
+import Navbar from "./pages/Navbar.js";
 
 function App() {
   return (
     <div>
-      <nav className="navigation-bar">
-        <ul>
-          <li>
-            <Link to="/contact">Contact Us</Link>
-          </li>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/login">Login</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <Routes>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/" element={<Home />}></Route>
