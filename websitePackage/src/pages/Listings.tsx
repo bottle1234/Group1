@@ -12,19 +12,19 @@ export default function ListingsPage() {
   const listings: Listing[] = [
     {
       id: "1",
-      title: "Cozy Cabin in the Woods",
+      title: "Manions",
       imageUrl: "/images/cabin.jpg",
       price: 120
     },
     {
       id: "2",
-      title: "Modern Downtown Loft",
+      title: "Modern Loft",
       imageUrl: "/images/loft.jpg",
       price: 200
     },
     {
       id: "3",
-      title: "Beachside Bungalow",
+      title: "Beachside home",
       imageUrl: "/images/bungalow.jpg",
       price: 150
     }
