@@ -4,6 +4,7 @@ import Home from "./pages/Home.js";
 import Login from "./pages/Login.js";
 import "./App.css";
 import Navbar from "./pages/Navbar.js";
+import ListingsPage from "./pages/Listings";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/listings" element={<ListingsPage />}></Route> 
       </Routes>
     </div>
   );

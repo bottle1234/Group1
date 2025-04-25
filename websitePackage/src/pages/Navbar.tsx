@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import logo from "../assets/StayBnb.png"; // Adjust path to your logo
 import "../navbar.css";
+
 export default function Navbar() {
   return (
     <nav className="navbar">
@@ -44,7 +45,18 @@ export default function Navbar() {
               Contact
             </NavLink>
           </li>
-        </ul>
+
+	<li className="nav-item">
+	  <NavLink
+	    to="/listings"
+	    className={({ isActive }) =>
+	      isActive ? "nav-link active" : "nav-link"
+	    }
+          >
+	    Listings
+	  </NavLink>
+	</li>
+       </ul>
       </div>
     </nav>
   );
