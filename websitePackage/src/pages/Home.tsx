@@ -1,20 +1,18 @@
 import React from "react";
-//import "./Contact.css";
 import "../Home.css";
-import banner from "../assets/banner.jpg"; // Adjust path to your image
+import banner from "../assets/banner.jpg";
+import { NavLink } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
-    <div className="home-page">
-      <div className="light hero">
-        <img src={banner} alt="Company Logo" className="hero-image" />
-        <div className="heroInner">
-          <span>
-            <h1>Come Explore</h1>
-            <a href="#" className="btn btn-light">
-              See Listings
-            </a>
-          </span>
+    <div className="home-container">
+      <div className="hero">
+        <img src={banner} alt="Company Banner" className="hero-image" />
+        <div className="hero-content">
+          <h1 className="hero-title">More Than a Stay – An Experience</h1>
+          <NavLink to="/ShowListings" className="hero-button">
+            View Listings
+          </NavLink>
         </div>
       </div>
     </div>
