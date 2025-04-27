@@ -4,8 +4,9 @@ import Home from "./pages/Home.js";
 import Login from "./pages/Login.js";
 import "./App.css";
 import Navbar from "./pages/Navbar.js";
-import ListingsPage from "./pages/Listings";
-
+import PaymentPage from "./pages/paymentPage";
+import ShowListings from "./pages/ShowListings.js";
+import Footer from "./pages/footer.js";
 function App() {
   return (
     <div>
@@ -14,8 +15,10 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
-        <Route path="/listings" element={<ListingsPage />}></Route> 
+        <Route path="/paymentPage" element={<PaymentPage />}></Route>
+        <Route path="/ShowListings" element={<ShowListings />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

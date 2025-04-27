@@ -34,7 +34,6 @@ export default function Navbar() {
               Login
             </NavLink>
           </li>
-
           <li className="nav-item">
             <NavLink
               to="/contact"
@@ -45,18 +44,17 @@ export default function Navbar() {
               Contact
             </NavLink>
           </li>
-
-	<li className="nav-item">
-	  <NavLink
-	    to="/listings"
-	    className={({ isActive }) =>
-	      isActive ? "nav-link active" : "nav-link"
-	    }
-          >
-	    Listings
-	  </NavLink>
-	</li>
-       </ul>
+          <li className="nav-item">
+            <NavLink
+              to="/paymentPage"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              paymentPage
+            </NavLink>
+          </li>
+        </ul>
       </div>
     </nav>
   );
