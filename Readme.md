@@ -1,5 +1,8 @@
 # Staybnb - Affordable Getaways for Families
 
+## Contribution
+Group 1 - Equal Contribution
+
 ![Staybnb](./Staybnb.jpg)
 
 ## Vision Statement
