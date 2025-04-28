@@ -1,9 +1,9 @@
 # Staybnb - Affordable Getaways for Families
 
+![Staybnb](./Staybnb.jpg)
+
 ## Contribution
 Group 1 - Equal Contribution
-
-![Staybnb](./Staybnb.jpg)
 
 ## Vision Statement
 Affordable getaways for families to travel and still feel at home.
