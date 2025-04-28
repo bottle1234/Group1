@@ -1,28 +1,79 @@
-# UML: Use Case Diagram
+# Staybnb - Affordable Getaways for Families
 
-## Vision Statement:   
-Affordable getaways for families to travel an still feel at home.
+![Staybnb](./Staybnb.jpg)
 
-## Functional requirements:
-1. Reserve: Users will have the abiity to make or cancel reservations
-2. login: Users will be able to create username and password
-3. home listings: list different available homes with opening 
-4. Payment: Process transactions
-5. Contact page : company contact and customer service number 
+## Vision Statement
+Affordable getaways for families to travel and still feel at home.
 
-##  Nonfunctional requirements:
-1. Security: Insuring 99% of user accounts are nonfraudulent
-2. Accessibility: The system must be able to meet Web Content Accessibity Guidelines WCAG 2.1
-3. Availability: Expected uptime of the website is to be no less than 99%
-4. Performance: Each page will load within 2 seconds
-5. Timeout : Automatically logged out 10 minutes
-## 
-  
+---
 
+## Features
 
+### Functional Requirements
+- **Reservation System**: Users can make or cancel reservations.
+- **User Authentication**: Users can create accounts with username and password.
+- **Home Listings**: View available homes with availability information.
+- **Payment Integration**: Secure transaction processing.
+- **Contact Page**: Access company contact details and customer service support.
 
-![image](./Staybnb.jpg)
+### Nonfunctional Requirements
+- **Security**: 99% of user accounts must be verified and secure.
+- **Accessibility**: Compliant with WCAG 2.1 standards.
+- **High Availability**: Website uptime must exceed 99%.
+- **Performance**: Each page should load in under 2 seconds.
+- **Session Management**: Users are automatically logged out after 10 minutes of inactivity.
 
+---
 
+## Project Structure
+```
+Group1-main/
+├── app.py
+├── config.py
+├── models/
+│   ├── cart.py
+│   ├── listings.py
+│   ├── payment.py
+│   ├── review.py
+│   ├── user.py
+│   └── wishlist.py
+├── Dockerfile
+├── docker-compose.yml
+├── Staybnb.jpg
+└── Readme.md
+```
 
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- Docker (optional)
+
+### Installation
+1. Clone the repo
+```bash
+git clone <repo_url>
+cd Group1-main
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Running the App
+```bash
+python app.py
+```
+
+Or use Docker:
+```bash
+docker-compose up --build
+```
+
+---
+
+## License
+This project is for educational use only.
 
