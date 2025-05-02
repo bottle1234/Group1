@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
+import "../App.css";
 
 const Signup = () => {
     // Initialize Firebase authentication and navigation
@@ -55,9 +56,9 @@ const Signup = () => {
     };
 
     return (
-        <div className='w-full h-screen flex'>
+        <div className='login-container'>
             {/* Left half of the screen - background styling */}
-            <div className='w-1/2 h-full flex flex-col bg-[#282c34] items-center justify-center'>
+            <div className='login-container'>
             </div>
 
             {/* Right half of the screen - signup form */}
@@ -65,7 +66,7 @@ const Signup = () => {
                 <div className='w-full flex flex-col max-w-[450px] mx-auto'>
                     {/* Header section with title and welcome message */}
                     <div className='w-full flex flex-col mb-10 text-white'>
-                        <h3 className='text-4xl font-bold mb-2'>Sign Up</h3>
+                        <h3 className='text-4xl font-bold mb'>Sign Up</h3>
                         <p className='text-lg mb-4'>Welcome! Please enter your information below to begin.</p>
                     </div>
 
@@ -102,7 +103,7 @@ const Signup = () => {
                         <button
                             onClick={signUpWithEmail}
                             disabled={authing}
-                            className='w-full bg-transparent border border-white text-white my-2 font-semibold rounded-md p-4 text-center flex items-center justify-center cursor-pointer'>
+                            className='hero-button'>
                             Sign Up With Email and Password
                         </button>
                     </div>

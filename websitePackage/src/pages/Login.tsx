@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 //import "./Login.css";
 import "../App.css";
+import "./Signup.tsx";
 
 interface FormData {
   email: string;
@@ -114,14 +115,14 @@ const Login: React.FC = () => {
             )}
           </div>
 
-          <button type="submit" className="login-button" disabled={isLoading}>
+          <button type="submit" className="hero-button" disabled={isLoading}>
             {isLoading ? "Logging in..." : "Log In"}
           </button>
         </form>
 
         <div className="login-footer">
           <p>
-            Don't have an account? <a href="/register">Sign up</a>
+            Don't have an account? <a href="/Signup">Sign up</a>
           </p>
           <a href="/forgot-password">Forgot password?</a>
         </div>
