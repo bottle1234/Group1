@@ -1,3 +1,5 @@
+# To run this test, use the command: python3 test_main.py
+
 import sys
 import os
 import unittest

@@ -1,3 +1,5 @@
+#To run this test, use the command: pytest --cov=backend --cov-report=term-missing
+
 import sys
 import os
 import uuid
