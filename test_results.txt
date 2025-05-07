@@ -1,0 +1,10 @@
+test_contact_info (__main__.TestStayBnbAPI.test_contact_info) ... ok
+test_create_and_cancel_booking (__main__.TestStayBnbAPI.test_create_and_cancel_booking) ... ok
+test_create_listing (__main__.TestStayBnbAPI.test_create_listing) ... ok
+test_get_listings (__main__.TestStayBnbAPI.test_get_listings) ... ok
+test_signup_and_login (__main__.TestStayBnbAPI.test_signup_and_login) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
